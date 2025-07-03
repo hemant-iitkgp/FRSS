@@ -1,0 +1,58 @@
+.availability{
+  color:red;
+}
+
+
+.ShopProductCard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px; 
+  padding: 2%;/* Adjust margin as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
+  /* border: 2px solid #000000; */
+  width:32vw;
+  cursor: pointer;
+}
+
+.title-rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-rating span{
+  font-size: 1.5rem;
+  color: rgb(255, 174, 0);
+}
+
+.ShopProductCard:active{
+  transform:scale(0.98);
+  box-shadow: none;
+}
+
+.ShopProductCard .card img {
+  width: 50%;
+  height: auto; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+.ShopProductCard .card-content {
+  padding-top: 3%;
+}
+
+.ShopProductCard .card-title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.ShopProductCard .card-text {
+  font-size: 1rem;
+}
+
+.ShopProductCard .bestseller {
+  color: #f9c74f;
+  font-weight: bold;
+}
+
+

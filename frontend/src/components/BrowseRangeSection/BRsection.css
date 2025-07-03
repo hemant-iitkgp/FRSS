@@ -1,0 +1,27 @@
+.BRsection-Container{
+    height: auto;
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+.BRsec-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.BRsec-header #header-text{
+    font-family: "Stardom";
+    font-size: 40px;
+    color:black;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+

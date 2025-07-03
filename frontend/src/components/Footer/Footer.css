@@ -1,0 +1,91 @@
+.footerContainer{
+    display: flex;
+    overflow: hidden;
+    display:flex;
+    background-color: #F0F0F0;
+    height: 280px;
+    width: 100vw;
+    border-top:1px solid #ddd ;
+}
+.footerLogo img{
+    height: 45%;
+    width: 45%;
+    object-fit: contain; 
+    margin-left: 2rem;  
+    margin-top: 2rem; 
+    
+}
+.footerLogo{
+    /* border:1px solid blue; */
+    float: left;
+    justify-content:flex-start;
+    height:100%;
+    width:30%;
+}
+.footerrights{
+    justify-content:flex-start;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+}
+.list1{
+    display: flex;
+    align-items:flex-start;
+    height: 100%;
+    width: 20%;
+}
+.list1 ul{
+    margin-top: 3rem;
+    list-style: none;
+}
+.list1 p{
+    padding-bottom: 2rem;
+}
+.list1 li{
+    padding-bottom: 1rem;
+}
+.list2{
+
+    display: flex;
+    align-items:flex-start;
+    height: 100%;
+    width: 20%;
+}
+.list2 ul{
+    margin-top: 3rem;
+    list-style: none;
+}
+.list2 li{
+    padding-bottom: 1rem;
+}
+li{
+    list-style-type: none; /* Remove the default bullet points */
+  }
+
+li a {
+    text-decoration: none; /* Remove the underline from hyperlinks within list items */
+  }
+
+
+.list1 li{
+    font-weight: bold;
+}
+
+.list1 .footer_home{
+    font-weight: bold;
+}
+
+.list2 p{
+    padding-bottom: 2rem;
+}
+.list2 li {
+    font-weight: bold;
+}
+
+.list1 p,.list2 p{
+    font-weight: bold;
+    color: #6F593F;
+}
+.footerLogo img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.ServiceBannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Adjust width as needed */
+  height: 20vh;
+  background-color: #faf3ea; /* Light gray background */
+  padding: 0;
+}
+
+.Service {
+  width: 25vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.servicetitle {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.ServiceBannerContainer img {
+  width: 10%;
+  height: auto;
+}

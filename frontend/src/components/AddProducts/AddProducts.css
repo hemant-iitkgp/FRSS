@@ -1,0 +1,123 @@
+.AddProductContainer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AddProductContainer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ProdctField{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.AddProductContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddProductContainer input {
+  margin-bottom: 10px;
+}
+
+.AddProductContainer button {
+  margin-bottom: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+.quantity-input {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+.quantity-input{
+  width: 52.5%;
+}
+
+.quantity-input input{
+  width: 200px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.uploadImgLabel :active{
+  transform: scale(0.97);
+}
+
+.image-upload label {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.image-upload input[type="file"] {
+  display: none;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.preview-container {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-container img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.empty-box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#short {
+  width: 100vh;
+}
+#ProductDescription {
+  width: 100vh;
+  margin-bottom: 10px;
+  height: 30vh;
+}
+.AddProductBTN{
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+}
+.AddProductsButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.AddProductsButton:active{
+  transform: scale(0.97);
+}

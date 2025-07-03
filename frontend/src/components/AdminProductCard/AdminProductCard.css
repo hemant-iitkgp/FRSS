@@ -1,0 +1,77 @@
+.AdminProdCardContainer{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 32vh;
+    width:100%;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ProdImageContainer{
+    margin-top: 1rem;
+    margin-left: 30px;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom: 0px;
+}
+
+.ProdImageContainer img{
+    height:100%;
+    width:100%;
+}
+
+.font-Admin-Prod-Card{
+    color: darkgrey;
+}
+
+.itemname{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.iteminfo{
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    width: 70%;
+    height: 85%;
+
+}
+
+.EditProductBtn{
+    margin: 5px 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.EditProductBtn :hover{
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.EditProductBtn:active{
+    transform: scale(0.98);
+}
+
+.DeleteProductBtn{
+    margin: 5px 0;
+    width: 100%;
+}
+.DeleteProductBtn:hover{
+    background-color: red !important;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.DeleteProductBtn:active{
+    transform: scale(0.98);
+}
+
+.control-btns{
+    position: relative;
+    left: 90%;
+    bottom:65%;
+    height: 100%;
+    width: 20vw;
+    
+}

@@ -1,0 +1,100 @@
+.OrderAlertsCardContainer {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 27vh;
+    width: 98.5%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .ShipOrderBtn{
+    height: 80%; 
+    width: 10%;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 3rem;
+  }
+  .ShipOrderBtn button{
+    width: 100% ;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .OrderAlertsCardImageContainer {
+    margin-left: 30px;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom: 0px;
+  }
+  .close-order-icon{
+    position: relative;
+    bottom: 40%;
+    left: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+  }
+  .close-order-icon:hover{
+    color: red;
+  }
+
+  
+  .OrderAlertsCardImageContainer img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .order-alerts-card-info {
+    margin-left: 2%;
+    margin-right: 10%;
+    width: 30%;
+    height: 85%;
+  }
+  
+  .order-alerts-card-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .order-alerts-card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10%;
+  }
+  
+  .order-alerts-card-user {
+    font-size: 1.25rem;
+  }
+  
+  .order-alerts-card-counter {
+    width: 20%;
+    height: 20.25%;
+  }
+  
+  .order-alerts-card-close-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+  }
+  
+  .order-alerts-card-close-icon:active {
+    transform: scale(0.95);
+  }
+  
+  .order-alerts-card-close-icon img {
+    height: 100%;
+    width: 100%;
+  }
+  .order-alerts-card-info p{
+    color:black;
+  }

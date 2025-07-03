@@ -1,0 +1,68 @@
+.CheckOutContainer {
+  width:100vw;
+  display: flex;
+  padding-top: 2.5% ;
+  padding-bottom: 5% ;
+}
+.CheckOutContainer>.LeftPart>p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20%;
+  }
+
+.LeftPart .FirstName,.LeftPart .LastName{
+    width: 100%;
+    padding-left:20%;
+    padding-right:2%;
+}
+.LeftPart .CountryRegion,.LeftPart .StreetAddress,.LeftPart .TownCity,.LeftPart .Province,.LeftPart .ZIPCode,.LeftPart .Phone,.LeftPart .Email{
+    padding:2%;
+    padding-left:20%;
+    padding-right:2%;
+}
+.LeftPart .Name{
+    display:flex;
+    justify-content:space-between;
+}
+.CheckOutContainer .LeftPart{
+    width: 50vw;
+}
+.RightPart p{
+    font-weight: bold;
+}
+.RightPart{
+    margin-top: 15vh;
+    padding-left: 10%;
+    width:50vw;
+    
+}
+.Total .GrandTotal{
+    font-size: 30px;
+}
+.Total {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalamt{
+    font-size: 32px;
+    color: gray;
+}
+
+.Total div{
+    width: 40%;
+}
+
+.bill{
+    font-size: 32px;
+    color: black;
+}
+
+
+.disclaimer{
+    font-size:12px;
+}
